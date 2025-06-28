@@ -19,8 +19,8 @@ import flipkart.components.landingpage;
 
 public class BaseTest {
 
-	WebDriver driver;
-	landingpage Flandingpage ;
+	 protected WebDriver driver;
+	protected landingpage Flandingpage ;
 	
 	public  WebDriver initialization() throws IOException {
 		Properties prop = new Properties();

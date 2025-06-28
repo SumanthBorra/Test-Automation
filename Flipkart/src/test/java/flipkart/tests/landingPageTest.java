@@ -9,9 +9,10 @@ import flipkart.testcomponents.BaseTest;
 public class landingPageTest extends BaseTest {
 
 	@Test
-	public  void signup() {
+	public  void signup() throws InterruptedException {
 		landingpage.mousehoverOnSignin();
 		System.out.println("Hi Tejes");
+		Flandingpage.doSignIn();
 		
 	}
 }
